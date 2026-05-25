@@ -1,0 +1,29 @@
+streamlit==1.38.0
+SQLAlchemy==2.0.30
+bcrypt==4.2.0
+python-dotenv==1.0.1
+requests==2.32.3
+PyGithub==2.3.0
+jinja2==3.1.4
+beautifulsoup4==4.12.3
+
+# Static analysis (Python)
+pylint==3.2.5
+flake8==7.1.0
+bandit==1.7.10
+radon==6.0.1
+black==24.8.0
+autopep8==2.3.1
+
+# Testing
+pytest==8.2.2
+pytest-mock==3.14.0
+
+# Utilities
+python-magic==0.4.27
+rapidfuzz==3.10.0
+lxml==5.2.2
+
+# NOTE: No Rust compilation and no heavy ML deps.
+# AI integration is optional via external API keys; local transformers/torch are not used.
+
